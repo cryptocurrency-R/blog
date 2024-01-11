@@ -1,0 +1,14 @@
+{
+  "hash": "fac89c3f66a08a0957f96e131524ec13",
+  "result": {
+    "markdown": "---\ntitle: \"CryptoQuotes\"\nauthor: \"Serkan Korkmaz\"\neditor: visual\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(cryptoQuotes)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n── cryptoQuotes 1.2.1 ───────────────────────────────────────── release notes\n──\n```\n:::\n:::\n\n::: {.cell}\n\n```{.r .cell-code}\nhead(\n  getQuote(\n    ticker = \"BTCUSDT\"\n  )\n)\n```\n\n::: {.cell-output .cell-output-stderr}\n```\nWarning: object timezone (UTC) is different from system timezone ()\n  NOTE: set 'options(xts_check_TZ = FALSE)'to disable this warning\n    This note is displayed once per session\n```\n:::\n\n::: {.cell-output .cell-output-stdout}\n```\n              Open    High     Low   Close   Volume\n2023-10-04 27412.0 27830.0 27163.9 27759.8 280784.3\n2023-10-05 27759.7 28110.0 27333.5 27398.4 370190.1\n2023-10-06 27398.3 28450.0 27156.0 27916.3 438445.9\n2023-10-07 27916.3 28018.7 27822.1 27943.0 117049.1\n2023-10-08 27943.0 28082.0 27671.0 27901.2 178380.3\n2023-10-09 27901.2 27977.0 27250.0 27578.3 314316.6\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

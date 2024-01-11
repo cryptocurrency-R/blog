@@ -1,0 +1,21 @@
+---
+title: "CryptoQuotes"
+author: "Serkan Korkmaz"
+editor: visual
+---
+
+```{r}
+library(cryptoQuotes)
+```
+
+
+
+
+```{r}
+head(
+  getQuote(
+    ticker = "BTCUSDT"
+  )
+)
+```
+
