@@ -7,11 +7,11 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "cryptoblog",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "about.html",
@@ -21,10 +21,17 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "cryptoblog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "CryptoQuotes\n\n\n\n\n\n\n\n\n\n\n\n\nSerkan Korkmaz\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/OHLC Data/index.html",
+    "href": "posts/OHLC Data/index.html",
+    "title": "CryptoQuotes",
+    "section": "",
+    "text": "library(cryptoQuotes)\n\n── cryptoQuotes 1.2.1 ───────────────────────────────────────── release notes\n──\n\n\n\nhead(\n  getQuote(\n    ticker = \"BTCUSDT\"\n  )\n)\n\nWarning: object timezone (UTC) is different from system timezone ()\n  NOTE: set 'options(xts_check_TZ = FALSE)'to disable this warning\n    This note is displayed once per session\n\n\n              Open    High     Low   Close   Volume\n2023-10-04 27412.0 27830.0 27163.9 27759.8 280784.3\n2023-10-05 27759.7 28110.0 27333.5 27398.4 370190.1\n2023-10-06 27398.3 28450.0 27156.0 27916.3 438445.9\n2023-10-07 27916.3 28018.7 27822.1 27943.0 117049.1\n2023-10-08 27943.0 28082.0 27671.0 27901.2 178380.3\n2023-10-09 27901.2 27977.0 27250.0 27578.3 314316.6"
   }
 ]
